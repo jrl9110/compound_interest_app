@@ -23,10 +23,10 @@ def test_int_calc():
      #establish input values
      initial = 1000
      monthly = 100
-     annual_rate = 12
+     annual_rate = 0
      years = 1
      #calculate an output
      final_sum = monthly_compounding(initial, monthly, annual_rate, years)
      #test output via an assertion
-     assert final_sum == 1110
+     assert final_sum == 1100
      
